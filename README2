@@ -1,0 +1,25 @@
+Una vez se instala GIT se debe configurar:
+
+git config -- global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL"
+
+Generar public key:
+ssh-keygen
+
+Leer la llave para escribirla en GitHub
+cat ~/.ssh/id_rsa.pub
+
+Iniciar Proyecto
+git init
+
+Crear archivo
+touch README
+
+Agregar git
+git add README
+
+Escribir y Enviar Commit
+git commit -m "Tu primer commit"
+
+Empujar
+git push
